@@ -1,0 +1,33 @@
+.eyePreloader {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*
+
+.eyePreloader img {
+    width: 400px;
+    height: 300px;
+} 
+
+*/
+
+.eyePreloader.fadeOut {
+    animation: fadeOut 1s alternate;
+}
+
+@keyframes fadeOut {
+    to {
+        opacity: 0;
+    }
+}
